@@ -1,2 +1,3 @@
-# cpptmd
-cpp template metaprogramming drill
+# CppTMD
+
+C++ template metaprogramming drill
