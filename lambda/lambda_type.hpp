@@ -1,4 +1,3 @@
-#include <typeinfo>
 #include <functional>
 #include <type_traits>
 
