@@ -1,3 +1,5 @@
+#pragma once
+
 #include <iostream>
 #include <iterator>
 #include <type_traits>
@@ -67,10 +69,8 @@ template<int ...vals> void print(Vals<vals...>)
     endl(cout);
 }
 
-int main()
-{
-    print(Sort<Vals<1>>::type());
-    print(Sort<Vals<2,1>>::type());
-    print(Sort<Vals<3,5,2,8,7,1,6,9,4>>::type());
-    return 0;
-}
+/* Test:
+print(Sort<Vals<1>>::type());
+print(Sort<Vals<2,1>>::type());
+print(Sort<Vals<3,5,2,8,7,1,6,9,4>>::type());
+*/
